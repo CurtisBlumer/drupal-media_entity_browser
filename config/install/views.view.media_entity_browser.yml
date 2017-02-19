@@ -6,6 +6,9 @@ dependencies:
     - image
     - media_entity
     - user
+  enforced:
+    module:
+      - media_entity_browser
 id: media_entity_browser
 label: 'Media Browser'
 module: views

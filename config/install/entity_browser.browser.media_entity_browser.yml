@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - views
+  enforced:
+    module:
+      - media_entity_browser
 name: media_entity_browser
 label: 'Media Entity Browser'
 display: iframe
