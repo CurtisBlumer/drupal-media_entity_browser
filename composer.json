@@ -1,0 +1,17 @@
+{
+    "name": "drupal/media_entity_browser",
+    "description": "Media Entity Browser for Drupal 8",
+    "type": "drupal-module",
+    "require-dev": {
+        "drupal/core": "^8.2.6"
+    },
+    "license": "GPL-2.0+",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/entity": "~1.0",
+        "drupal/media_entity": "^1.6",
+        "drupal/ctools": "~3.0",
+        "drupal/entity_browser": "~1.0"
+    }
+}
